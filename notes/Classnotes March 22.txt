@@ -1,0 +1,118 @@
+Blah blah blah&#39;
+
+Use the normal distribution to find the probability that a driver goes less than 70 mph. 
+Normal random variable (70)
+Cumalitive probability p(s<= 99%)
+Mean 65
+Standard Deviation 2
+ Ask question in reverse: 
+what is the speed so that 99% of drivers are going less than 70 mph. 
+the solution is 70 mph with 1% of error. 
+Z= 1.282
+We have 90% below or 10% above
+Call Z alpha =1.282 the critical value
+Alpha =10% the allowed error
+1-2= 90% the confidence level. 
+Z alpha = 1.645 we have 95% below or 5% above. 
+Call z alpha =1.645 the critical value and alpha = 5% the allowed margin of error
+1-2=95% is the confidence level. 
+
+
+As we recall from the normal distribution we can find probabilities in the form 
+
+	P (  X  <    Z value )  =   percent
+
+Ex:        P  ( X  <  1.282 )   =  90%
+Ex: 	P ( X  <   1.645 )   = 95%
+
+
+Now let us look at this the other way around, 
+We define the critical value  Z?  the value of Z so that   a certain percent is below
+
+	Namely,  we use the so called confidence critical value Z?
+		Z? =   1.645     if   95% below
+			&
+		Z? =   1.282     if   90% below
+
+Now, while these values could be found from our Z table (NOTE that&#39;s not so easy to do ) and/or normal distribution calculator&#39; these values are quite useful and commonly used so we will have a nice table to locate then easily at the bottom of each column where the confidence level is listed at top: 
+
+NOTE:   area = ?  =  &#39;allowed error&#39;
+ Confidence level =  1 - ?
+
+NOTE: must decide between one tailed vs two tailed??
+	One tailed means all below
+	Two tailed means half below & half above&#39;.  MOST COMMON!!!
+
+EX:  Find  Z? =   1.96    if   95% between
+	Look up  0.05  on top, two tailed&#39;.  At bottom of column see 1.96
+		****  KNOW REM  Z = 1.96  for  95% confident  ***
+
+
+
+
+THRM:  the confidence interval for population mean is, which is a prediction!
+We are (1-?)% confident that the unknown population mean will fall between
+
+X  - Z?  s/?N		&  		X  + Z?  s/?N
+
+NOTE: we&#39;re not proving this result, but if interested note CLT & our formula for st error.
+NOTE NOTE NOTE... if you&#39;re using the online MyStatLab HW there is a program there called statcrunch and you can do this formula in statcrunch program by going ( from the top menu )
+	Stat  ->  Z stat ->  w summary  (  then change option to conf interval)
+
+
+EX1:	For a data set of 25 people with sample mean of 50  and  st dev of 10  find 
+	The 95% conf interval
+		SOL:   note Z? = 1.96  because 95% level
+50 + or &#39; 1.96 * (10/sqrt of 25)
+1.96 *2
+SO +- 3.92
+SO +3.92=53.92
+SO-3.92= 46.08
+	SOL after plug in find bottom limit = 46.08   &  top= 53.92
+	So we are 95% confident that the population mean is between 46.08  & 53.92
+
+
+We are (1-?)% confident that the unknown population mean will fall between
+
+X  - Z?  s/?N		&  		X  + Z?  s/?N
+
+EX2:	For a data set of 100 people with sample mean of 700  and  st dev of 30  find 
+X+- Z alpha *S/sqrt of N
+700+1.96*(30/sqrt of 100)
+700+- 1.96*3
+	The 95% conf interval
+		SOL:   note Z? = 1.96  because 95% level
+
+	SOL after plug in find bottom limit = 694.12   &  top= 705.88
+	So we are 95% confident that the population mean is between 694.12   &   705.88
+
+
+We are (1-?)% confident that the unknown population mean will fall between
+
+X  - Z?  s/?N		&  		X  + Z?  s/?N
+
+EX3:	For a data set of 100 people with sample mean of 700  and  st dev of 30  find 
+	The 99% conf interval
+		SOL:   note Z? = 2.576   because 99% level
+
+	SOL after plug in find bottom limit = 692.27   &  top =  707.73
+	So we are 99% confident that the population mean is between 692.27   &    707.73
+
+
+NOTE the application of this is for our hypothesis testing.  Let&#39;s say for example in that last question the old class average is 700 and I now know the CI is from 693  to 707.
+OK I do an experiment to try to help improve scores and find my new class grades are 710&#39;  the question is that difference significant???
+
+The answer comes from the CI:
+	If it is within the CI, nothing happened not significant i.e. my experiment failed,
+	BUT it is outside ( above )the CI, then something happened and is significant 
+       i.e. in my experiment it worked because 710 is outside!!!
+
+
+This is called hypothesis testing and is what we will be studying for the rest of the semester, and is the capstone on MA 222 ( further your next project with PPT will be an application of hyp testing )
+
+
+
+On project asked graph &#39;empirical rule&#39; interval 95% between x-2(std dev) & mean +2(std dev)
+This is not a prediction it just describes your data set. 
+But the so called confidence interval says we are 1-2% confident that the unknown population mean will fall between the sample mean &#39; the critical value * standard dev/ sqrt of N & mean + the critical value * standard deviation/sqrt of n. 
+

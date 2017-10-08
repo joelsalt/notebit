@@ -1,0 +1,49 @@
+Assembly launch:
+* Definition: Different entities assembling complex system by IDENTIFYING ROLES AND RESPONSIBILITIES OF EACH PARTY. 
+o Example: LV manufacturer, payload manufacturing, payload integration, secondary payloads (integrator that connects them together then connects to the primary), rack provider, integration support (company or personnel who knows what connectors are for), ground support (people who are logistically who move things around, janitor for clean room), instrumentation provider. 
+Handoff procedures of authority
+* Definition: Define and document configuration at each step of preparation
+o Example: receiver verifies configuration and previous steps, prepare similar report for next party after action. 
+o AKA a &#39;maintenance log&#39; analog 
+o Example: incomplete or unplanned work documented and propagated backward and forward in process. 
+GOAL: final configuration of system and documentation for Flight OPS usage.
+Launch Operations
+* Timeline for execution uses T+ or &#39; nomenclature
+o T+0 (ignition of fuel oxidizer)
+* Logistics and cargo OPS (on vehicle) 
+* Constantly updated weather reports (briefings)
+* Polling process (go, go, go, go)
+o Program management
+o Individual technical teams
+o Weather OPS
+o Range OPS
+o Launch authority
+o Flight crew
+* Execution Plan for Countdown
+o Launch
+o Scrub 
+* Short: reset, etc
+* Long duration : start unfueling the vehicle
+o Recycle
+* Fast 
+
+o Closeout crew
+* Verifies configurations
+* Takes pictures
+* Last contact with flight crew 
+* Ground execution/ safety process
+o Launch operators handle:
+* Restricted access control
+* Hazardous commodity loading
+* Fuel oxidizer
+* Blast danger area
+* Launch simulation or countdown simulation
+* Fault detection
+* End to end command and control intergration
+* Contingency OPS
+* Crew egress
+* Abort scenarios
+* Etc 
+
+
+
